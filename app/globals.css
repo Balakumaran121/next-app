@@ -3,7 +3,13 @@
 @tailwind utilities;
 
 body {
-  padding: 1rem;
+  /* padding: 1rem; */
   background-color: white;
   height: 100vh;
+}
+
+@layer base {
+  h1 {
+    @apply font-extrabold text-2xl;
+  }
 }
